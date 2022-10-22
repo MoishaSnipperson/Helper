@@ -12,7 +12,7 @@ print (r.status_code)
 import requests
 
 try:
-    r = requests.get('https://s1.sharewood.co/online/?type=member')
+    r = requests.get('https://ya.ru')
 except requests.ConnectionError:
     print("Нэ могу достучаться да ?")
 
